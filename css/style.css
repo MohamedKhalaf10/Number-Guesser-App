@@ -1,0 +1,53 @@
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  font-weight: 600;
+}
+body h1 {
+  font-size: 50px;
+  margin: 0;
+}
+body form #guess {
+  border: 1px solid #b9b9b9;
+  border-radius: 6px;
+  width: 200px;
+  padding: 10px 0 10px 10px;
+}
+body form #guess::-moz-placeholder {
+  color: #777;
+  -moz-transition: 0.3s;
+  transition: 0.3s;
+}
+body form #guess:-ms-input-placeholder {
+  color: #777;
+  -ms-transition: 0.3s;
+  transition: 0.3s;
+}
+body form #guess::placeholder {
+  color: #777;
+  transition: 0.3s;
+}
+body form #guess:focus {
+  outline: 1px solid lightblue;
+}
+body form #guess:focus::-moz-placeholder {
+  opacity: 0;
+}
+body form #guess:focus:-ms-input-placeholder {
+  opacity: 0;
+}
+body form #guess:focus::placeholder {
+  opacity: 0;
+}
+body form #button {
+  margin-left: 3px;
+  padding: 10px 15px;
+  background-color: white;
+  font-weight: 600;
+  border: 1px solid #b9b9b9;
+  border-radius: 6px;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
